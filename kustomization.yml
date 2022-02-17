@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - kafka-topics.yaml
+  - lmc-elasticsearch.yaml
+  - lmr_in.yaml
+  - lmr-input-service.yaml
+  - ltr_in.yaml
+  - ltr_out.yaml
+  - ltr-input-service.yaml
